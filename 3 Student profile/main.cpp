@@ -12,9 +12,6 @@ struct student
     char dep[30];
 };
 
-
-
-
 int main()
 {
     int i;
@@ -37,7 +34,6 @@ int main()
         cout<<"Enter Your Department            : ";
         cin>>s[i].dep;
         cout<<"\n";
-
     }
     for (i=0;i<3;i++)
     {
@@ -50,7 +46,6 @@ int main()
         cout<<"Semester         : "<<s[i].sem<<endl;
         cout<<"Department       : "<<s[i].dep<<endl;
         cout<<"\n";
-
     }
 
     return 0;
