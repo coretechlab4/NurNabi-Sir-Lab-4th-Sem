@@ -40,7 +40,25 @@ int main()
         while(1)
         {
 
-
+                1.cout<<"Add Student"<<endl;
+                2.cout<<"Show StudentInfo"<<endl; 
+                3.cout<<"Press 0 to Exit"<<endl;
+                int press;
+                cin>>press;
+            if(press==1)
+            {
+                scount++;
+                S[scount].getinfo;
+            }
+            else if(press==2)
+            {
+                int sid;
+                cin>>sid;
+            }
+            else if(Press==0)
+            {
+                break;
+            }
 
         }
 }
