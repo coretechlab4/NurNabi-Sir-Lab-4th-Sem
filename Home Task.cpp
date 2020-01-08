@@ -40,22 +40,22 @@ int main()
         while(1)
         {
 
-                1.cout<<"Add Student"<<endl;
-                2.cout<<"Show StudentInfo"<<endl; 
-                3.cout<<"Press 0 to Exit"<<endl;
+                cout<<"1. Add Student"<<endl;
+                cout<<"2. Show StudentInfo"<<endl;
+                cout<<"3. Press 0 to Exit"<<endl;
                 int press;
                 cin>>press;
             if(press==1)
             {
                 scount++;
-                S[scount].getinfo;
+                s[scount].getinfo;
             }
             else if(press==2)
             {
                 int sid;
                 cin>>sid;
             }
-            else if(Press==0)
+            else if(press==0)
             {
                 break;
             }
